@@ -5,6 +5,13 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluaRey_Eventi", "BluaRey_Eventi\BluaRey_Eventi.csproj", "{956382F3-F9D6-4303-AE3E-2F119E94548A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{42B15620-46B9-445D-89CA-B471597BEC6B}"
+	ProjectSection(SolutionItems) = preProject
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "immagini", "immagini", "{82DFD2F3-A718-4B49-9F55-F0E7875DF49F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82DFD2F3-A718-4B49-9F55-F0E7875DF49F} = {42B15620-46B9-445D-89CA-B471597BEC6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73D19CD7-1275-4E23-BE88-2601EF1168C0}
