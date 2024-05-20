@@ -39,29 +39,41 @@ namespace BluaRey_Eventi
             }
             else
             {
-                comando = new SqlCommand();
-                comando.Connection = connDB;
-                comando.CommandText = "SELECT * FROM artisti WHERE nome = '" + txt_artista.Text + "'";
-                tabella = comando.ExecuteReader();
-                DataTable paolo = new DataTable();
-                paolo.Load(tabella);
-
-                if (paolo.Rows.Count == 1)
+                if (txt_artista.Text != "")
                 {
                     comando = new SqlCommand();
                     comando.Connection = connDB;
-                    comando.CommandText = "INSERT INTO eventi(titolo, luogo, data, FK_artista) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + data.Text + "', (SELECT id_artista FROM artisti WHERE nome ='" + txt_artista.Text + "')) ";
+                    comando.CommandText = "SELECT * FROM artisti WHERE nome = '" + txt_artista.Text + "'";
+                    tabella = comando.ExecuteReader();
+                    DataTable paolo = new DataTable();
+                    paolo.Load(tabella);
+                    if (paolo.Rows.Count == 1)
+                    {
+                        comando = new SqlCommand();
+                        comando.Connection = connDB;
+                        comando.CommandText = "INSERT INTO eventi(titolo, luogo, data, FK_artista) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + data.Text + "', (SELECT id_artista FROM artisti WHERE nome ='" + txt_artista.Text + "')) ";
+                        connDB.Close();
+                        connDB.Open();
+                        SqlDataReader gino = comando.ExecuteReader();
+                        Response.Write("<script>alert('Evento inserito con successo!');</script>");
+                    }
+                    else
+                    {
+                        Response.Write("<script>alert('L'artista inserito non esiste!');</script>");
+                    }
+                }
+                else
+                {
+                    comando = new SqlCommand();
+                    comando.Connection = connDB;
+                    comando.CommandText = "INSERT INTO eventi(titolo, luogo, data) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + data.Text + "') ";
                     connDB.Close();
                     connDB.Open();
                     SqlDataReader gino = comando.ExecuteReader();
                     Response.Write("<script>alert('Evento inserito con successo!');</script>");
                 }
-                else
-                {
-                    //Funziona l'if e l'else però non manda l'alert
-                    Response.Write("<script>alert('L'artista inserito non esiste!');</script>");
-                }
+            }
+                connDB.Close();
             }
         }
-    }
 }

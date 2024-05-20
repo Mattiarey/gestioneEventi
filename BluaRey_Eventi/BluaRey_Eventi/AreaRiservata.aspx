@@ -11,6 +11,7 @@
     <p>Area Riservata</p>
     <button onclick="window.location.href='creaEvento.aspx'">Crea un evento</button> <br /><br />
 	<button onclick="window.location.href='aggiungiArtisti.aspx'">Aggiungi artista</button> <br /><br />
+	<button onclick="window.location.href='aggiungiPost.aspx'">Aggiungi post</button> <br /><br />
     <form id="form1" runat="server">
 
         <asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server" Text="Visualizza eventi"/><br/><br/>

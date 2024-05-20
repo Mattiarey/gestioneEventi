@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aggiungiArtisti.aspx" />
+    <Content Include="aggiungiPost.aspx" />
     <Content Include="AreaRiservata.aspx" />
     <Content Include="creaEvento.aspx" />
     <Content Include="Home.html" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="aggiungiArtisti.aspx.designer.cs">
       <DependentUpon>aggiungiArtisti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aggiungiPost.aspx.cs">
+      <DependentUpon>aggiungiPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aggiungiPost.aspx.designer.cs">
+      <DependentUpon>aggiungiPost.aspx</DependentUpon>
     </Compile>
     <Compile Include="AreaRiservata.aspx.cs">
       <DependentUpon>AreaRiservata.aspx</DependentUpon>
