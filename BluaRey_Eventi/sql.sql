@@ -2,9 +2,9 @@ USE MASTER
 
 EXEC sp_attach_db @dbname = 'BluaReyEventi' , 
 
-@filename1 = N'C:\Users\Utente\Desktop\BluaRey_Eventi\BluaReyEventi.mdf', 
+@filename1 = N'C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaReyEventi.mdf', 
 
-@filename2 = N'C:\Users\Utente\Desktop\BluaRey_Eventi\BluaReyEventi.ldf'
+@filename2 = N'C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaReyEventi.ldf'
 
 USE BluaReyEventi
 CREATE TABLE [User]

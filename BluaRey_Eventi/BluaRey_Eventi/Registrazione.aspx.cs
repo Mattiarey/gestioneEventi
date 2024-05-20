@@ -48,16 +48,16 @@ namespace BluaRey_Eventi
                     comando.Parameters.AddWithValue("@Email", txt_emailR.Text);
                     comando.Parameters.AddWithValue("@Password", txt_pwdR.Text);
 
-                    Response.Write("<script>alert('Registrazione effettuata con successo!');</script>");
+                    Response.Write("<script>alert('Registrazione effettuata con successo!'); window.location = './home.html'; </script>");
                 }
                 else
                 {
-                    Response.Write("<script>alert('La mail inserita è già registrata!');</script>");
+                    Response.Write("<script>alert('La mail inserita è già registrata!'); window.location = './Registrazione.aspx';</script>");
                 }
             }
             else
             {
-                Response.Write("<script>alert('Devi inserire mail e password!');</script>");
+                Response.Write("<script>alert('Devi inserire mail e password!'); window.location = './Registrazione.aspx';</script>");
             }
 
 
