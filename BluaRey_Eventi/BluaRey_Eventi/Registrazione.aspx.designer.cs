@@ -42,6 +42,15 @@ namespace BluaRey_Eventi
         protected global::System.Web.UI.WebControls.TextBox txt_pwdR;
 
         /// <summary>
+        /// Controllo checkbox1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox checkbox1;
+
+        /// <summary>
         /// Controllo btn_registrazione.
         /// </summary>
         /// <remarks>
