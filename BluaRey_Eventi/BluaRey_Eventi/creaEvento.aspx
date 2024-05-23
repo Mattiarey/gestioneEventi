@@ -33,6 +33,9 @@
                 <div class="input-box">
                     <asp:TextBox ID="txt_artista" runat="server" PlaceHolder="Artista"></asp:TextBox>
                 </div>
+                <div class="dimenticato">
+                    <a href="./AreaRiservata.aspx">Torna all'area riservata</a>
+                </div>
                 <asp:Button ID="btn_aggiungi" OnClick="btn_aggiungi_Click" runat="server" Text="Crea" class="btn" />
             </form>
         </div>
