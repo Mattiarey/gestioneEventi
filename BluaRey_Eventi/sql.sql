@@ -1,11 +1,3 @@
-USE MASTER
-
-EXEC sp_attach_db @dbname = 'BluaReyEventi' , 
-
-@filename1 = N'C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaReyEventi.mdf', 
-
-@filename2 = N'C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaReyEventi.ldf'
-
 CREATE DATABASE BluaReyEventi
 
 USE BluaReyEventi
@@ -13,7 +5,10 @@ CREATE TABLE [User]
 (
 	Id_email INT IDENTITY (1,1) PRIMARY KEY,
 	Email VARCHAR(255) NOT NULL,
-	[Password] VARCHAR(255) NOT NULL
+	[Password] VARCHAR(255) NOT NULL,
+	Nickname VARCHAR(255) NOT NULL,
+	Nome VARCHAR(255) NOT NULL,
+	Cognome VARCHAR(255) NOT NULL
 )
 
 USE BluaReyEventi

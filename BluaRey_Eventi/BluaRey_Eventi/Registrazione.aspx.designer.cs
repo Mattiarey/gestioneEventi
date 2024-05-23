@@ -42,6 +42,33 @@ namespace BluaRey_Eventi
         protected global::System.Web.UI.WebControls.TextBox txt_pwdR;
 
         /// <summary>
+        /// Controllo txt_nickname.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_nickname;
+
+        /// <summary>
+        /// Controllo txt_nome.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_nome;
+
+        /// <summary>
+        /// Controllo txt_cognome.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_cognome;
+
+        /// <summary>
         /// Controllo checkbox1.
         /// </summary>
         /// <remarks>

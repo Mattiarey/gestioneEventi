@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="./css/style.css" />
 		<title>Pianificatore di Eventi</title>
 	</head>
+        
+        
 
 	<body>
 
@@ -38,6 +40,7 @@
 				<div class="dimenticato">
 					<a href="Home.html">Logout</a>
 				</div>
+				<asp:GridView ID="dgvDati" runat="server"></asp:GridView>
 			</form>
 		</div>
 	</body>

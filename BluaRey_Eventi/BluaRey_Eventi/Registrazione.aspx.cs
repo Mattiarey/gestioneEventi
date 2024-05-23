@@ -40,7 +40,7 @@ namespace BluaRey_Eventi
                 if (dataTable.Rows.Count == 0)
                 {
                     //Se l'utente è nuovo lo inserisco nel DB
-                    comando.CommandText = "INSERT INTO [User](Email, Password) VALUES ('" + txt_emailR.Text + "', '" + txt_pwdR.Text + "') ";
+                    comando.CommandText = "INSERT INTO [User](Email, Password, Nickname, Nome, Cognome) VALUES ('" + txt_emailR.Text + "', '" + txt_pwdR.Text + "', '" + txt_nickname.Text + "', '" + txt_nome.Text + "', '" + txt_cognome.Text + "') ";
                     string giacomo = $"INSERT INTO [User](Email, Password) VALUES ('{txt_emailR.Text}', '{txt_pwdR.Text}') ";
 
                     SqlDataReader gino = comando.ExecuteReader();
