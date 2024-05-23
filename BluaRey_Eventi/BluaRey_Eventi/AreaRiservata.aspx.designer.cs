@@ -31,5 +31,23 @@ namespace BluaRey_Eventi
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_visualizzaEventi;
+
+        /// <summary>
+        /// Controllo btn_visualizzaPost.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_visualizzaPost;
+
+        /// <summary>
+        /// Controllo dgvDati.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView dgvDati;
     }
 }

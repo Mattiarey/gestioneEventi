@@ -15,6 +15,10 @@
     <form id="form1" runat="server">
 
         <asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server" Text="Visualizza eventi"/><br/><br/>
+		<asp:Button ID="btn_visualizzaPost" OnClick="btn_visualizzaPost_Click" runat="server" Text="Visualizza post"/><br/>
+        <asp:GridView ID="dgvDati" runat="server">
+        </asp:GridView>
+        <br/>
         <a href = "Home.html">Logout</a>
     </form>
 </body>

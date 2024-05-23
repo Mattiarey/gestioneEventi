@@ -25,6 +25,18 @@
                 <div class="input-box">
                     <asp:TextBox ID="txt_pwdR" runat="server" PlaceHolder="Password" TextMode="Password"></asp:TextBox>
                 </div>
+                <div class="input-box">
+                    <asp:TextBox ID="txt_nickname" runat="server" PlaceHolder="Nickname"></asp:TextBox>
+                <br />
+                </div>
+                <div class="input-box">
+                    <asp:TextBox ID="txt_nome" runat="server" PlaceHolder="Nome"></asp:TextBox>
+                <br />
+                </div>
+                <div class="input-box">
+                    <asp:TextBox ID="txt_cognome" runat="server" PlaceHolder="Cognome"></asp:TextBox>
+                <br />
+                </div>
                 <div class="dimenticato">
                     <div><asp:CheckBox id="checkbox1" runat="server" AutoPostBack="False" Text="Ricordami" /></div>
                     <a href="./Login.aspx"><span>Già registrato?</span></a>
