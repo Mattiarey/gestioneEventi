@@ -49,13 +49,20 @@ namespace BluaRey_Eventi
                     paolo.Load(tabella);
                     if (paolo.Rows.Count == 1)
                     {
-                        comando = new SqlCommand();
-                        comando.Connection = connDB;
-                        comando.CommandText = "INSERT INTO eventi(titolo, luogo, data, FK_artista) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + data.Text + "', (SELECT id_artista FROM artisti WHERE nome ='" + txt_artista.Text + "')) ";
-                        connDB.Close();
-                        connDB.Open();
-                        SqlDataReader gino = comando.ExecuteReader();
-                        Response.Write("<script>alert('Evento inserito con successo!');</script>");
+                        if(txt_provincia.Text.Length == 2)
+                        {
+                            comando = new SqlCommand();
+                            comando.Connection = connDB;
+                            comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_artista) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', (SELECT id_artista FROM artisti WHERE nome ='" + txt_artista.Text + "')) ";
+                            connDB.Close();
+                            connDB.Open();
+                            SqlDataReader gino = comando.ExecuteReader();
+                            Response.Write("<script>alert('Evento inserito con successo!');</script>");
+                        }
+                        else
+                        {
+                            Response.Write("<script>alert('La provincia deve avere 2 lettere!');</script>");
+                        }
                     }
                     else
                     {
@@ -64,13 +71,20 @@ namespace BluaRey_Eventi
                 }
                 else
                 {
-                    comando = new SqlCommand();
-                    comando.Connection = connDB;
-                    comando.CommandText = "INSERT INTO eventi(titolo, luogo, data) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + data.Text + "') ";
-                    connDB.Close();
-                    connDB.Open();
-                    SqlDataReader gino = comando.ExecuteReader();
-                    Response.Write("<script>alert('Evento inserito con successo!');</script>");
+                    if (txt_provincia.Text.Length == 2)
+                    {
+                        comando = new SqlCommand();
+                        comando.Connection = connDB;
+                        comando.CommandText = "INSERT INTO eventi(titolo, luogo, data) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + data.Text + "') ";
+                        connDB.Close();
+                        connDB.Open();
+                        SqlDataReader gino = comando.ExecuteReader();
+                        Response.Write("<script>alert('Evento inserito con successo!');</script>");
+                    }
+                    else
+                    {
+                        Response.Write("<script>alert('La provincia deve avere 2 lettere!');</script>");
+                    }
                 }
             }
                 connDB.Close();

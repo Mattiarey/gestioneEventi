@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="aggiungiArtisti.aspx" />
     <Content Include="aggiungiPost.aspx" />
+    <Content Include="areaOspite.aspx" />
     <Content Include="AreaRiservata.aspx" />
     <Content Include="creaEvento.aspx" />
     <Content Include="Home.html" />
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="aggiungiPost.aspx.designer.cs">
       <DependentUpon>aggiungiPost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="areaOspite.aspx.cs">
+      <DependentUpon>areaOspite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="areaOspite.aspx.designer.cs">
+      <DependentUpon>areaOspite.aspx</DependentUpon>
     </Compile>
     <Compile Include="AreaRiservata.aspx.cs">
       <DependentUpon>AreaRiservata.aspx</DependentUpon>

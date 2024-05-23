@@ -11,7 +11,7 @@ namespace BluaRey_Eventi
 {
 
 
-    public partial class creaEvento
+    public partial class areaOspite
     {
 
         /// <summary>
@@ -24,22 +24,13 @@ namespace BluaRey_Eventi
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controllo txt_titolo.
+        /// Controllo txt_territorio.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_titolo;
-
-        /// <summary>
-        /// Controllo txt_luogo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_luogo;
+        protected global::System.Web.UI.WebControls.TextBox txt_territorio;
 
         /// <summary>
         /// Controllo txt_provincia.
@@ -51,30 +42,12 @@ namespace BluaRey_Eventi
         protected global::System.Web.UI.WebControls.TextBox txt_provincia;
 
         /// <summary>
-        /// Controllo data.
+        /// Controllo dgvDati.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox data;
-
-        /// <summary>
-        /// Controllo txt_artista.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_artista;
-
-        /// <summary>
-        /// Controllo btn_aggiungi.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_aggiungi;
+        protected global::System.Web.UI.WebControls.GridView dgvDati;
     }
 }

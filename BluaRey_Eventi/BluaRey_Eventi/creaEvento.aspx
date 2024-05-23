@@ -25,6 +25,9 @@
                     <asp:TextBox ID="txt_luogo" runat="server" PlaceHolder="Luogo"></asp:TextBox>
                 </div>
                 <div class="input-box">
+                    <asp:TextBox ID="txt_provincia" runat="server" PlaceHolder="Provincia"></asp:TextBox>
+                </div>
+                <div class="input-box">
                     <asp:TextBox ID="data" runat="server" type="date"></asp:TextBox>
                 </div>
                 <div class="input-box">

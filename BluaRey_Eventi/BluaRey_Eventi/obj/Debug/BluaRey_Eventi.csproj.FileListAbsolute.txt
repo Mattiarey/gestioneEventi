@@ -115,4 +115,4 @@ C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaRey_Eventi\o
 C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaRey_Eventi\obj\Debug\BluaRey_Eventi.csproj.CoreCompileInputs.cache
 C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaRey_Eventi\obj\Debug\BluaRey_Eventi.dll
 C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaRey_Eventi\obj\Debug\BluaRey_Eventi.pdb
-C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaRey_Eventi\obj\Debug\BluaRey_Eventi.csproj.CopyComplete
+C:\Users\Utente\Desktop\TestBOZZI\gestioneEventi\BluaRey_Eventi\BluaRey_Eventi\obj\Debug\BluaRey_.8ED6A663.Up2Date

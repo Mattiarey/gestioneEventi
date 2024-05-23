@@ -24,6 +24,7 @@ CREATE TABLE eventi
 	id_evento INT IDENTITY (1,1) PRIMARY KEY,
 	titolo VARCHAR(255) NOT NULL,
 	luogo VARCHAR(255) NOT NULL,
+	provincia VARCHAR(2) NOT NULL,
 	[data] DATE NOT NULL,
 	FK_artista INT REFERENCES artisti(id_artista)
 )
