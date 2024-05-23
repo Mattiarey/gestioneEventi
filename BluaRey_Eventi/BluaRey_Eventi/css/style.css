@@ -99,4 +99,31 @@ body{
 .registrazion p a:hover{
     text-decoration: underline;
 }
+.button-box{
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.button-box .btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+}
+.bottoniInColonna{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.btn:hover{
+    background-color: #d4d4d4;
+}
 

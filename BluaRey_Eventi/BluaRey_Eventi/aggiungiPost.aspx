@@ -31,7 +31,7 @@
                     <asp:TextBox ID="txt_evento" runat="server" PlaceHolder="Evento collegato"></asp:TextBox>
                 </div>
                 <div class="dimenticato">
-                    <a href="Home.html">Torna alla home</a>
+                    <a href="./AreaRiservata.aspx">Torna all'area riservata</a>
                 </div>
                 <asp:Button ID="btn_post" OnClick="btn_post_Click" runat="server" Text="Post" class="btn" />
             </form>
