@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\",
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|c:\\users\\utente\\desktop\\testbozzi\\gestioneeventi\\bluarey_eventi\\bluarey_eventi\\areaospite.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\areaospite.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\areariservata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\areariservata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\areariservata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\registrazione.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|c:\\xampp\\htdocs\\gestioneeventi\\bluarey_eventi\\bluarey_eventi\\areaospite.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\areaospite.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\registrazione.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\registrazione.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\aggiungipost.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\aggiungipost.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\aggiungipost.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\creaevento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\creaevento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\creaevento.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|c:\\users\\utente\\desktop\\testbozzi\\gestioneeventi\\bluarey_eventi\\bluarey_eventi\\creaevento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\creaevento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\creaevento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|c:\\users\\utente\\desktop\\testbozzi\\gestioneeventi\\bluarey_eventi\\bluarey_eventi\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|c:\\users\\utente\\desktop\\testbozzi\\gestioneeventi\\bluarey_eventi\\bluarey_eventi\\aggiungipost.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\aggiungipost.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\aggiungipost.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -48,12 +48,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BluaReyEventi/True/SqlTable/dbo.artisti.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\registrazione.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\bluarey_eventi\\registrazione.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{956382F3-F9D6-4303-AE3E-2F119E94548A}|BluaRey_Eventi\\BluaRey_Eventi.csproj|solutionrelative:bluarey_eventi\\registrazione.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sql.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,29 +59,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Registrazione.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Registrazione.aspx.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Registrazione.aspx.cs",
               "RelativeDocumentMoniker": "BluaRey_Eventi\\Registrazione.aspx.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Registrazione.aspx.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Registrazione.aspx.cs",
               "RelativeToolTip": "BluaRey_Eventi\\Registrazione.aspx.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAowCoAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T06:23:36.467Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "areaOspite.aspx",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\areaOspite.aspx",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\areaOspite.aspx",
               "RelativeDocumentMoniker": "BluaRey_Eventi\\areaOspite.aspx",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\areaOspite.aspx",
+              "ToolTip": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\areaOspite.aspx",
               "RelativeToolTip": "BluaRey_Eventi\\areaOspite.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -105,35 +100,33 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "creaEvento.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\creaEvento.aspx.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\creaEvento.aspx.cs",
               "RelativeDocumentMoniker": "BluaRey_Eventi\\creaEvento.aspx.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\creaEvento.aspx.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\creaEvento.aspx.cs",
               "RelativeToolTip": "BluaRey_Eventi\\creaEvento.aspx.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAiwEgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:14:38.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:14:38.79Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "aggiungiPost.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\aggiungiPost.aspx.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\aggiungiPost.aspx.cs",
               "RelativeDocumentMoniker": "BluaRey_Eventi\\aggiungiPost.aspx.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\aggiungiPost.aspx.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\aggiungiPost.aspx.cs",
               "RelativeToolTip": "BluaRey_Eventi\\aggiungiPost.aspx.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAiwCkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:02:26.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:02:26.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AreaRiservata.aspx",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\AreaRiservata.aspx",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\AreaRiservata.aspx",
               "RelativeDocumentMoniker": "BluaRey_Eventi\\AreaRiservata.aspx",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\AreaRiservata.aspx",
+              "ToolTip": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\AreaRiservata.aspx",
               "RelativeToolTip": "BluaRey_Eventi\\AreaRiservata.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -144,46 +137,43 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "aggiungiPost.aspx",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\aggiungiPost.aspx",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\aggiungiPost.aspx",
               "RelativeDocumentMoniker": "BluaRey_Eventi\\aggiungiPost.aspx",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\aggiungiPost.aspx",
+              "ToolTip": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\aggiungiPost.aspx",
               "RelativeToolTip": "BluaRey_Eventi\\aggiungiPost.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-20T06:56:16.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T06:56:16.464Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Home.html",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Home.html",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Home.html",
               "RelativeDocumentMoniker": "BluaRey_Eventi\\Home.html",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Home.html",
+              "ToolTip": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Home.html",
               "RelativeToolTip": "BluaRey_Eventi\\Home.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-23T11:33:29.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T11:33:29.932Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "sql.sql ",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\sql.sql",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\sql.sql",
               "RelativeDocumentMoniker": "sql.sql",
               "ToolTip": "sql.sql ",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-23T11:37:03.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T11:37:03.995Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "creaEvento.aspx",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\creaEvento.aspx",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\creaEvento.aspx",
               "RelativeDocumentMoniker": "BluaRey_Eventi\\creaEvento.aspx",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\creaEvento.aspx",
+              "ToolTip": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\creaEvento.aspx",
               "RelativeToolTip": "BluaRey_Eventi\\creaEvento.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -212,9 +202,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Registrazione.aspx",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Registrazione.aspx",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Registrazione.aspx",
               "RelativeDocumentMoniker": "BluaRey_Eventi\\Registrazione.aspx",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Registrazione.aspx",
+              "ToolTip": "C:\\xampp\\htdocs\\gestioneEventi\\BluaRey_Eventi\\BluaRey_Eventi\\Registrazione.aspx",
               "RelativeToolTip": "BluaRey_Eventi\\Registrazione.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",

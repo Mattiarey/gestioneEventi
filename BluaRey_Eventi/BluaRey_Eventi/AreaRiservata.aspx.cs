@@ -45,5 +45,14 @@ namespace BluaRey_Eventi
             dgvDati.DataBind();
             connDB.Close();
         }
+        protected void creaEvento(object sender, EventArgs e){
+            Response.Redirect("creaEvento.aspx");
+        }
+        protected void aggiungiArtisti(object sender, EventArgs e){
+            Response.Redirect("aggiungiArtisti.aspx");
+        }
+        protected void aggiungiPost(object sender, EventArgs e){
+            Response.Redirect("aggiungiPost.aspx");
+        }
     }
 }
