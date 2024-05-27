@@ -22,15 +22,7 @@ namespace BluaRey_Eventi
 
         protected void btn_visualizzaEventi_Click(object sender, EventArgs e)
         {
-            SqlDataReader tabella;
-            connDB.Open();
-            comando = new SqlCommand();
-            comando.Connection = connDB;
-            comando.CommandText = "SELECT * FROM eventi;";
-            tabella = comando.ExecuteReader();
-            dgvDati.DataSource = tabella;
-            dgvDati.DataBind();
-            connDB.Close();
+            
         }
 
         protected void btn_visualizzaPost_Click(object sender, EventArgs e)
@@ -44,15 +36,6 @@ namespace BluaRey_Eventi
             dgvDati.DataSource = tabella;
             dgvDati.DataBind();
             connDB.Close();
-        }
-        protected void creaEvento(object sender, EventArgs e){
-            Response.Redirect("creaEvento.aspx");
-        }
-        protected void aggiungiArtisti(object sender, EventArgs e){
-            Response.Redirect("aggiungiArtisti.aspx");
-        }
-        protected void aggiungiPost(object sender, EventArgs e){
-            Response.Redirect("aggiungiPost.aspx");
         }
     }
 }

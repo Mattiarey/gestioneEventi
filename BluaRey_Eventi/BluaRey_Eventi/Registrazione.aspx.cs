@@ -48,7 +48,7 @@ namespace BluaRey_Eventi
                     comando.Parameters.AddWithValue("@Email", txt_emailR.Text);
                     comando.Parameters.AddWithValue("@Password", txt_pwdR.Text);
 
-                    Response.Write("<script>alert('Registrazione effettuata con successo!'); window.location = './home.html'; </script>");
+                    Response.Write("<script>alert('Registrazione effettuata con successo!'); window.location = './AreaRiservata.aspx'; </script>");
                 }
                 else
                 {

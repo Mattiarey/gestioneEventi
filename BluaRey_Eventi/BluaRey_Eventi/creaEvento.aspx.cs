@@ -75,7 +75,7 @@ namespace BluaRey_Eventi
                     {
                         comando = new SqlCommand();
                         comando.Connection = connDB;
-                        comando.CommandText = "INSERT INTO eventi(titolo, luogo, data) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + data.Text + "') ";
+                        comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "') ";
                         connDB.Close();
                         connDB.Open();
                         SqlDataReader gino = comando.ExecuteReader();

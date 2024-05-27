@@ -9,10 +9,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:TextBox ID="txt_territorio" runat="server" PlaceHolder="Territorio"></asp:TextBox>
-        <asp:TextBox ID="txt_provincia" runat="server" PlaceHolder="Provincia"></asp:TextBox>
-        <asp:Button ID="btn_visualizzaEventi" <!--OnClick="btn_visualizzaEventi_Click"--> runat="server" Text="Visualizza"/><br/><br/>
-        <asp:Button ID="btn_visualizzaPost" <!--OnClick="btn_visualizzaPost_Click"--> runat="server" Text="Visualizza post"/><br/>
+        <label>Data da cui vuoi ricercare: </label>
+        <asp:TextBox ID="data_data" runat="server" type="date"></asp:TextBox> <br/><br/>
+        <asp:TextBox ID="txt_territorio" runat="server" PlaceHolder="Territorio"></asp:TextBox><br/><br/>
+        <asp:TextBox ID="txt_provincia" runat="server" PlaceHolder="Provincia"></asp:TextBox><br/><br/>
+        <asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server" Text="Cerca"/><br/><br/><br/>
+        <asp:TextBox ID="txt_evento" runat="server" PlaceHolder="Evento"></asp:TextBox>
+        <asp:Button ID="btn_visualizzaPost" OnClick="btn_visualizzaPost_Click" runat="server" Text="Visualizza post e voti"/><br/><br/>
         <asp:GridView ID="dgvDati" runat="server">
         </asp:GridView>
         <br/>

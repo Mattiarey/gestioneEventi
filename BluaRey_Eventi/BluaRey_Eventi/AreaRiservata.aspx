@@ -23,13 +23,14 @@
 			<form id="form1" runat="server">
 				<div class="bottoniInColonna">
 					<div class="button-box">
-						<asp:Button OnClick="creaEvento" class="btn" text="Crea un evento" runat="server"/>
+						<button onclick="window.location.href='creaEvento.aspx'" class="btn">Crea un evento</button>
 					</div>
 					<div class="button-box">
-						<asp:Button OnClick="aggiungiArtisti" class="btn" text="Aggiungi artista" runat="server"/>
+						<button onclick="window.location.href='aggiungiArtisti.aspx'" class="btn">Aggiungi
+							artista</button>
 					</div>
 					<div class="button-box">
-						<asp:Button OnClick="aggiungiPost" class="btn" text="Aggiungi post" runat="server"/>
+						<button onclick="window.location.href='aggiungiPost.aspx'" class="btn">Aggiungi post</button>
 					</div>
 					<div class="button-box">
 						<asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server"
