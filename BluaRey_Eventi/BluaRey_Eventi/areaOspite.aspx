@@ -19,7 +19,7 @@
         <asp:GridView ID="dgvDati" runat="server">
         </asp:GridView>
         <br/>
-        <a href = "Home.html">Logout</a>
+        <a href = "Home.html">Home</a>
     </form>
 </body>
 </html>

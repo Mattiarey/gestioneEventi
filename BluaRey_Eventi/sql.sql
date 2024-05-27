@@ -19,6 +19,13 @@ CREATE TABLE artisti
 )
 
 USE BluaReyEventi
+CREATE TABLE categorie
+(
+	id_categoria INT IDENTITY (1,1) PRIMARY KEY,
+	nome VARCHAR(255) NOT NULL
+)
+
+USE BluaReyEventi
 CREATE TABLE eventi
 (
 	id_evento INT IDENTITY (1,1) PRIMARY KEY,
@@ -26,7 +33,8 @@ CREATE TABLE eventi
 	luogo VARCHAR(255) NOT NULL,
 	provincia VARCHAR(2) NOT NULL,
 	[data] DATE NOT NULL,
-	FK_artista INT REFERENCES artisti(id_artista)
+	FK_artista INT REFERENCES artisti(id_artista),
+	FK_categorie INT REFERENCES categorie(id_categoria)
 )
 
 USE BluaReyEventi
@@ -38,3 +46,5 @@ CREATE TABLE post
 	voto INT NOT NULL,
 	FK_evento INT NOT NULL REFERENCES eventi(id_evento)
 )
+
+INSERT INTO categorie(nome) VALUES ('Cultura'), ('Musica'), ('Tecnologia'), ('Sportivi')

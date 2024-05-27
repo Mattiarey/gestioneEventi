@@ -18,6 +18,13 @@
         <div class="wrapper">
             <h1>Crea Evento</h1>
             <form id="form1" runat="server">
+                <label for="dropdown">Seleziona una categoria:</label>
+                    <select name="menu" id="menu">
+                        <option value="cultura">Cultura</option>
+                        <option value="musica">Musica</option>
+                        <option value="tecnologia">Tecnologia</option>
+                        <option value="sport">Sportivi</option>
+                    </select>
                 <div class="input-box">
                     <asp:TextBox ID="txt_titolo" runat="server" PlaceHolder="Titolo"></asp:TextBox>
                 </div>
