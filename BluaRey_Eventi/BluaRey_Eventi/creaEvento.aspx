@@ -19,11 +19,11 @@
             <h1>Crea Evento</h1>
             <form id="form1" runat="server">
                 <label for="dropdown">Seleziona una categoria:</label>
-                    <select name="menu" id="menu">
-                        <option value="cultura">Cultura</option>
-                        <option value="musica">Musica</option>
-                        <option value="tecnologia">Tecnologia</option>
-                        <option value="sport">Sportivi</option>
+                    <select name="menu" id="menu" runat="server">
+                        <option value="1">Cultura</option>
+                        <option value="2">Musica</option>
+                        <option value="3">Tecnologia</option>
+                        <option value="4">Sportivi</option>
                     </select>
                 <div class="input-box">
                     <asp:TextBox ID="txt_titolo" runat="server" PlaceHolder="Titolo"></asp:TextBox>

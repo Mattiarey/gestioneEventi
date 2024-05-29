@@ -69,6 +69,42 @@ namespace BluaRey_Eventi
         protected global::System.Web.UI.WebControls.TextBox txt_cognome;
 
         /// <summary>
+        /// Controllo cultura.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cultura;
+
+        /// <summary>
+        /// Controllo musica.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox musica;
+
+        /// <summary>
+        /// Controllo tecnologia.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox tecnologia;
+
+        /// <summary>
+        /// Controllo sport.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox sport;
+
+        /// <summary>
         /// Controllo checkbox1.
         /// </summary>
         /// <remarks>
