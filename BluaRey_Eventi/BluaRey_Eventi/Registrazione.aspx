@@ -38,6 +38,22 @@
                 <br />
                 </div>
                 <div class="dimenticato">
+                    <asp:CheckBox ID="cultura" runat="server" Text="Cultura"></asp:CheckBox>
+                <br />
+                </div>
+                <div class="dimenticato">
+                    <asp:CheckBox ID="musica" runat="server" Text="Musica"></asp:CheckBox>
+                <br />
+                </div>
+                <div class="dimenticato">
+                    <asp:CheckBox ID="tecnologia" runat="server" Text="Tecnologia"></asp:CheckBox>
+                <br />
+                </div>
+                <div class="dimenticato">
+                    <asp:CheckBox ID="sport" runat="server" Text="Sportivi"></asp:CheckBox>
+                <br />
+                </div>
+                <div class="dimenticato">
                     <div><asp:CheckBox id="checkbox1" runat="server" AutoPostBack="False" Text="Ricordami" /></div>
                     <a href="./Login.aspx"><span>Già registrato?</span></a>
                 </div>

@@ -1,6 +1,13 @@
 CREATE DATABASE BluaReyEventi
 
 USE BluaReyEventi
+CREATE TABLE categorie
+(
+	id_categoria INT IDENTITY (1,1) PRIMARY KEY,
+	nome VARCHAR(255) NOT NULL
+)
+
+USE BluaReyEventi
 CREATE TABLE [User]
 (
 	Id_email INT IDENTITY (1,1) PRIMARY KEY,
@@ -12,16 +19,17 @@ CREATE TABLE [User]
 )
 
 USE BluaReyEventi
-CREATE TABLE artisti
+CREATE TABLE categorieInteressate
 (
-	id_artista INT IDENTITY (1,1) PRIMARY KEY,
-	nome VARCHAR(255) NOT NULL
+	id INT IDENTITY (1,1) PRIMARY KEY,
+	FK_categorie INT REFERENCES categorie(id_categoria),
+	FK_user INT REFERENCES [User](Id_email)
 )
 
 USE BluaReyEventi
-CREATE TABLE categorie
+CREATE TABLE artisti
 (
-	id_categoria INT IDENTITY (1,1) PRIMARY KEY,
+	id_artista INT IDENTITY (1,1) PRIMARY KEY,
 	nome VARCHAR(255) NOT NULL
 )
 

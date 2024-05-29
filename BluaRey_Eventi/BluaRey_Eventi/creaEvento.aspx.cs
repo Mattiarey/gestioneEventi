@@ -39,6 +39,7 @@ namespace BluaRey_Eventi
             }
             else
             {
+                //Controlla se è stato inserito un artista o meno per la query da eseguire dopo
                 if (txt_artista.Text != "")
                 {
                     comando = new SqlCommand();
@@ -47,13 +48,24 @@ namespace BluaRey_Eventi
                     tabella = comando.ExecuteReader();
                     DataTable paolo = new DataTable();
                     paolo.Load(tabella);
+                    //Controllo se l'artista in input esiste
                     if (paolo.Rows.Count == 1)
                     {
-                        if(txt_provincia.Text.Length == 2)
+                        comando = new SqlCommand();
+                        comando.Connection = connDB;
+
+                        //Controllo le la provincia ha 2 lettere
+                        if (txt_provincia.Text.Length == 2)
                         {
-                            comando = new SqlCommand();
-                            comando.Connection = connDB;
-                            comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_artista) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', (SELECT id_artista FROM artisti WHERE nome ='" + txt_artista.Text + "')) ";
+                            int categoria = int.Parse(menu.Value);
+                            switch(categoria)
+                            {
+                                case 1: comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_artista, FK_categorie) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', (SELECT id_artista FROM artisti WHERE nome ='" + txt_artista.Text + "'), 1) "; break;
+                                case 2: comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_artista, FK_categorie) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', (SELECT id_artista FROM artisti WHERE nome ='" + txt_artista.Text + "'), 2) "; break;
+                                case 3: comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_artista, FK_categorie) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', (SELECT id_artista FROM artisti WHERE nome ='" + txt_artista.Text + "'), 3) "; break;
+                                case 4: comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_artista, FK_categorie) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', (SELECT id_artista FROM artisti WHERE nome ='" + txt_artista.Text + "'), 4) "; break;
+                            }
+                            
                             connDB.Close();
                             connDB.Open();
                             SqlDataReader gino = comando.ExecuteReader();
@@ -75,7 +87,16 @@ namespace BluaRey_Eventi
                     {
                         comando = new SqlCommand();
                         comando.Connection = connDB;
-                        comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "') ";
+
+                        int categoria = int.Parse(menu.Value);
+                        switch (categoria)
+                        {
+                            case 1: comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_categorie) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', 1) "; break;
+                            case 2: comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_categorie) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', 2) "; break;
+                            case 3: comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_categorie) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', 3) "; break;
+                            case 4: comando.CommandText = "INSERT INTO eventi(titolo, luogo, provincia, data, FK_categorie) VALUES ('" + txt_titolo.Text + "', '" + txt_luogo.Text + "', '" + txt_provincia.Text + "', '" + data.Text + "', 4) "; break;
+                        }
+
                         connDB.Close();
                         connDB.Open();
                         SqlDataReader gino = comando.ExecuteReader();
