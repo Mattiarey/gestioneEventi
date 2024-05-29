@@ -57,5 +57,9 @@ namespace BluaRey_Eventi
         {
             Response.Redirect("aggiungiPost.aspx");
         }
+        protected void modificaEventi(object sender, EventArgs e)
+        {
+            Response.Redirect("modificaEventi.aspx");
+        }
     }
 }

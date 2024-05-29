@@ -74,6 +74,7 @@
     <Content Include="creaEvento.aspx" />
     <Content Include="Home.html" />
     <Content Include="Login.aspx" />
+    <Content Include="modificaEventi.aspx" />
     <Content Include="Registrazione.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -119,6 +120,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modificaEventi.aspx.cs">
+      <DependentUpon>modificaEventi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modificaEventi.aspx.designer.cs">
+      <DependentUpon>modificaEventi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registrazione.aspx.cs">

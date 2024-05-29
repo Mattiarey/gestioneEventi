@@ -32,6 +32,9 @@
 						<asp:Button OnClick="aggiungiPost" class="btn" text="Aggiungi post" runat="server"/>
 					</div>
 					<div class="button-box">
+						<asp:Button OnClick="modificaEventi" class="btn" text="Modifica eventi" runat="server"/>
+					</div>
+					<div class="button-box">
 						<asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server"
 							Text="Visualizza eventi" class="btn" />
 					</div>
