@@ -66,7 +66,7 @@ namespace BluaRey_Eventi
                     }
                     else
                     {
-                        Response.Write("<script>alert('L'artista inserito non esiste!');</script>");
+                        Response.Write("<script>alert('Questo artista non esiste!');</script>");
                     }
                 }
                 else

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.IO;
 
 namespace BluaRey_Eventi
 {
@@ -38,9 +39,17 @@ namespace BluaRey_Eventi
 
                 if (dataTable.Rows.Count == 1)
                 {
-                    comando.CommandText = "INSERT INTO post(titolo, commento, voto, FK_evento) VALUES ('" + txt_titoloPost.Text + "', '" + txt_commento.Text + "', '" + txt_voto.Text + "', (SELECT id_evento FROM eventi WHERE titolo ='" + txt_evento.Text + "')) ";
-                    tabella = comando.ExecuteReader();
-                    Response.Write("<script>alert('Post inserito correttamente!'); window.location = './AreaRiservata.aspx';</script>");
+                    try
+                    {
+                        comando.CommandText = "INSERT INTO post(titolo, commento, voto, FK_evento) VALUES ('" + txt_titoloPost.Text + "', '" + txt_commento.Text + "', '" + txt_voto.Text + "', (SELECT id_evento FROM eventi WHERE titolo ='" + txt_evento.Text + "')) ";
+                        tabella = comando.ExecuteReader();
+                        Response.Write("<script>alert('Post inserito correttamente!'); window.location = './AreaRiservata.aspx';</script>");
+                    }
+                    catch (Exception ex)
+                    {
+                        Response.Write("Non puoi inserire apostrofi, purtroppo");
+                    }
+                    
                 }
                 else
                 {
