@@ -1,25 +1,59 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="areaOspite.aspx.cs" Inherits="BluaRey_Eventi.areaOspite" %>
 
-<!DOCTYPE html>
+    <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <label>Data da cui vuoi ricercare: </label>
-        <asp:TextBox ID="data_data" runat="server" type="date"></asp:TextBox> <br/><br/>
-        <asp:TextBox ID="txt_territorio" runat="server" PlaceHolder="Territorio"></asp:TextBox><br/><br/>
-        <asp:TextBox ID="txt_provincia" runat="server" PlaceHolder="Provincia"></asp:TextBox><br/><br/>
-        <asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server" Text="Cerca"/><br/><br/><br/>
-        <asp:TextBox ID="txt_evento" runat="server" PlaceHolder="Evento"></asp:TextBox>
-        <asp:Button ID="btn_visualizzaPost" OnClick="btn_visualizzaPost_Click" runat="server" Text="Visualizza post e voti"/><br/><br/>
-        <asp:GridView ID="dgvDati" runat="server">
-        </asp:GridView>
-        <br/>
-        <a href = "Home.html">Home</a>
-    </form>
-</body>
-</html>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Pianificatore di Eventi</title>
+    </head>
+
+    <body>
+        <div class="wrapperignolo">
+            <h1>Area ospite</h1>
+            <form id="form1" runat="server">
+                <div class="gruppone">
+                    <div class="sinistra">
+                        <div class="input-morethings">
+                            <label for="data_data">Data da cui vuoi ricercare:</label>
+                            <asp:TextBox ID="data_data" runat="server" type="date"></asp:TextBox>
+                        </div>
+                        <div class="input-box">
+                            <asp:TextBox ID="txt_territorio" runat="server" PlaceHolder="Territorio interessato">
+                            </asp:TextBox>
+                        </div>
+                        <div class="input-box">
+                            <asp:TextBox ID="txt_provincia" runat="server" PlaceHolder="Provincia"></asp:TextBox>
+                        </div>
+                        <div class="button-box">
+                            <asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server"
+                                Text="Cerca" class="btn" />
+                        </div>
+                    </div>
+                    <div class="destra">
+                        <div class="input-box">
+                            <asp:TextBox ID="txt_evento" runat="server" PlaceHolder="Evento"></asp:TextBox>
+                        </div>
+                        <div class="button-box">
+                            <asp:Button ID="btn_visualizzaPost" OnClick="btn_visualizzaPost_Click" runat="server"
+                                Text="Visualizza post e voti" class="btn" />
+                        </div>
+                        <div class="input-box">
+                            <!--Modificare classe-->
+                            <asp:GridView ID="dgvDati" runat="server"></asp:GridView>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="dimenticato">
+                <a href="Home.html">Home</a>
+            </div>
+        </div>
+    </body>
+
+    </html>

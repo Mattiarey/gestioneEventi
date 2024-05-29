@@ -1,33 +1,29 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pianificatore di Eventi</title>
 </head>
+
 <body>
-    <p>Home Page Eventi</p>
-    <button onclick="window.location.href='Login.aspx'">Login</button> <br /><br />
-    <button onclick="window.location.href='Registrazione.aspx'">Registrazione</button>
-    <button onclick="window.location.href='Registrazione.aspx'">Registrazione</button>
-    <button onclick="window.location.href='areaOspite.aspx'">Entra come ospite</button>
+    <div class="wrapper">
+        <h1>Home page Eventi</h1>
+        <div class="input-box">
+            <button onclick="window.location.href='Login.aspx'" class="btn">Login</button>
+        </div>
+        <div class="input-box">
+            <button onclick="window.location.href='Registrazione.aspx'" class="btn">Registrazione</button>
+        </div>
+        <div class="input-box">
+            <button onclick="window.location.href='areaOspite.aspx'" class="btn">Entra come ospite</button>
+        </div>
+    </div>
 </body>
 
-<style>
-    button {
-        padding: 10px 20px;
-        font-size: 16px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        background-color: grey;
-        color: white;
-        transition: background-color 0.3s ease;
-    }
 
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        text-align: center;
-    }
-</style>
 </html>
