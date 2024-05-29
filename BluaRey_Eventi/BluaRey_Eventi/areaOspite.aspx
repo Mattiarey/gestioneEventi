@@ -34,6 +34,7 @@
                             <asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server"
                                 Text="Cerca" class="btn" />
                         </div>
+                        
                     </div>
                     <div class="destra">
                         <div class="input-box">
