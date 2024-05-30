@@ -50,10 +50,21 @@
                     <a href="Home.html">Home</a>
                 </div>
             </div>
-            <div class="tabella">
+            <div class="tabella" id="iddo">
                 <asp:GridView ID="dgvDati" runat="server"></asp:GridView>
             </div>
         </form>
     </body>
+    <script>
+        window.onbeforeunload = puppa()
 
+        function puppa() {
+            if(window.sessionStorage.getItem("caricato")!= "true"){
+                window.sessionStorage.setItem("caricato", "true")
+            }
+            else{
+                document.getElementsByClassName("tabella")[0].style.visibility = "visible";
+            }
+        }
+    </script>
     </html>
