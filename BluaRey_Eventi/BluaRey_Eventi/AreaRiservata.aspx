@@ -13,38 +13,52 @@
 		<link rel="stylesheet" href="./css/style.css" />
 		<title>Pianificatore di Eventi</title>
 	</head>
-        
-        
+
+
 
 	<body>
 
-		<div class="wrapper">
-			<h1>Area Riservata</h1>
-			<form id="form1" runat="server">
+		<form id="form1" runat="server" class="formino">
+			<div class="wrapper">
+				<h1>Area Riservata</h1>
 				<div class="bottoniInColonna">
 					<div class="button-box">
-						<asp:Button OnClick="aggiungiArtisti" class="btn" text="Aggiungi artista" runat="server"/>
+						<asp:Button OnClick="aggiungiArtisti" class="btn" text="Aggiungi artista" runat="server" />
 					</div>
 					<div class="button-box">
-						<asp:Button OnClick="creaEvento" class="btn" text="Crea un evento" runat="server"/>
+						<asp:Button OnClick="creaEvento" class="btn" text="Crea un evento" runat="server" />
 					</div>
 					<div class="button-box">
-						<asp:Button OnClick="aggiungiPost" class="btn" text="Aggiungi post" runat="server"/>
+						<asp:Button OnClick="aggiungiPost" class="btn" text="Aggiungi post" runat="server" />
 					</div>
 					<div class="button-box">
-						<asp:Button OnClick="modificaEventi" class="btn" text="Modifica eventi" runat="server"/>
+						<asp:Button OnClick="modificaEventi" class="btn" text="Modifica eventi" runat="server" />
 					</div>
 					<div class="button-box">
-						<asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server"
+						<asp:Button ID="btn_visualizzaEventi" AutoPostback = "false" OnClick="btn_visualizzaEventi_Click" runat="server"
 							Text="Visualizza eventi" class="btn" />
 					</div>
 				</div>
 				<div class="dimenticato">
 					<a href="Home.html">Logout</a>
 				</div>
+			</div>
+			<div class="tabella" id="iddo">
 				<asp:GridView ID="dgvDati" runat="server"></asp:GridView>
-			</form>
-		</div>
+			</div>
+		</form>
+		<script>
+			window.onbeforeunload = puppa()
+
+            function puppa() {
+				if(window.sessionStorage.getItem("caricato")!= "true"){
+					window.sessionStorage.setItem("caricato", "true")
+				}
+				else{
+					document.getElementsByClassName("tabella")[0].style.visibility = "visible";
+				}
+			}
+        </script>
 	</body>
 
 	</html>

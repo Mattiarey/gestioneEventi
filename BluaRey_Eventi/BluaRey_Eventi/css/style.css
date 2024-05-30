@@ -14,6 +14,7 @@ body {
     background: url(./immagini/caccamoEros.jpg) no-repeat;
     background-size: cover;
     background-position: left;
+    
 }
 
 .wrapper {
@@ -120,6 +121,7 @@ body {
     cursor: pointer;
     color: #333;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .wrapper .registrazion {
@@ -182,4 +184,23 @@ body {
 .destra {
     width: 300px;
     margin-left: 40px;
+}
+.formino{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tabella{
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 12px;
+    margin-top: 20px;
+    color: #fff;
+    padding: 25px;
+    backdrop-filter: blur(20px);
+    visibility: hidden;
 }

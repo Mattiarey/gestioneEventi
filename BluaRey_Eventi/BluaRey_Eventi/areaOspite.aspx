@@ -14,9 +14,9 @@
     </head>
 
     <body>
-        <div class="wrapperignolo">
-            <h1>Area ospite</h1>
-            <form id="form1" runat="server">
+        <form id="form1" runat="server" class="formino">
+            <div class="wrapperignolo">
+                <h1>Area ospite</h1>
                 <div class="gruppone">
                     <div class="sinistra">
                         <div class="input-morethings">
@@ -34,7 +34,7 @@
                             <asp:Button ID="btn_visualizzaEventi" OnClick="btn_visualizzaEventi_Click" runat="server"
                                 Text="Cerca" class="btn" />
                         </div>
-                        
+
                     </div>
                     <div class="destra">
                         <div class="input-box">
@@ -44,17 +44,16 @@
                             <asp:Button ID="btn_visualizzaPost" OnClick="btn_visualizzaPost_Click" runat="server"
                                 Text="Visualizza post e voti" class="btn" />
                         </div>
-                        <div class="input-box">
-                            <!--Modificare classe-->
-                            <asp:GridView ID="dgvDati" runat="server"></asp:GridView>
-                        </div>
                     </div>
                 </div>
-            </form>
-            <div class="dimenticato">
-                <a href="Home.html">Home</a>
+                <div class="dimenticato">
+                    <a href="Home.html">Home</a>
+                </div>
             </div>
-        </div>
+            <div class="tabella">
+                <asp:GridView ID="dgvDati" runat="server"></asp:GridView>
+            </div>
+        </form>
     </body>
 
     </html>
